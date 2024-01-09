@@ -2586,6 +2586,63 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+/* About Image */
+
+.about-image {
+	border-radius: 100%;
+	border: 0;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+	.about-image:before {
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background-image: url("images/overlay.png");
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+
+	.about-image img {
+		border-radius: 100%;
+		display: block;
+	}
+
+	.about-image.left {
+		float: left;
+		margin: 0 1.5em 1em 0;
+		top: 0.25em;
+	}
+
+	.about-image.right {
+		float: right;
+		margin: 0 0 1em 1.5em;
+		top: 0.25em;
+	}
+
+	.about-image.left, .about-image.right {
+		max-width: 40%;
+	}
+
+		.about-image.left img, .about-image.right img {
+			width: 100%;
+		}
+
+	.about-image.fit {
+		display: block;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+		.about-image.fit img {
+			width: 100%;
+		}
+
 /* Image */
 
 	.image {
@@ -2946,6 +3003,7 @@ input, select, textarea {
 
 		header.major {
 			margin: 0 0 4rem 0;
+			font-size: 1rem;
 			text-align: center;
 		}
 
@@ -2955,7 +3013,7 @@ input, select, textarea {
 
 			header.major > p {
 				margin-top: 0;
-				text-align: center;
+				text-align: left;
 			}
 
 			header.major > .date {
@@ -3787,7 +3845,7 @@ input, select, textarea {
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 4rem;
+				font-size: 2.5rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
