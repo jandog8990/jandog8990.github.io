@@ -2589,8 +2589,9 @@ input, select, textarea {
 /* About Image */
 
 .about-image img {
+	margin-top: -3rem;
 	clip-path: circle();
-	transform: scale(0.7);
+	transform: scale(0.6);
 }
 
 /* Image */
@@ -3393,9 +3394,10 @@ input, select, textarea {
 					background-color: #18bfef;
 				}
 
-		#intro h1 {
-			font-size: 5rem;
+		#intro h2 {
+			font-size: 2rem;
 			line-height: 1;
+			margin-top: -5rem;
 		}
 
 		#intro p {
