@@ -2109,7 +2109,7 @@ input, select, textarea {
 			height: 4rem;
 			line-height: 4rem;
 			border-radius: 4rem;
-			text-indent: 4rem;
+			/* text-indent: 4rem; */
 			overflow: hidden;
 			padding: 0;
 			white-space: nowrap;
