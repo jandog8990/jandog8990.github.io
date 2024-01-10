@@ -2589,7 +2589,7 @@ input, select, textarea {
 /* About Image */
 
 .about-image img {
-	margin-top: -3rem;
+	margin-top: -3.5rem;
 	clip-path: circle();
 	transform: scale(0.6);
 }
